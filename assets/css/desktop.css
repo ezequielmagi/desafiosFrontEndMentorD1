@@ -134,7 +134,7 @@ main {
   text-decoration: none;
 }
 
-.card-buttons {
+.footer {
   align-items: center;
   display: flex;
   flex-direction: column;
