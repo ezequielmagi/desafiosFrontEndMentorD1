@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <link
       rel="stylesheet"
@@ -34,28 +34,28 @@
   </head>
   <body>
     <div class="card-container">
-      <img
-        role="banner"
-        src="../assets/images/illustration-hero.svg"
-        alt="hero image"
-      />
-      <div role="contentinfo" class="card-text">
-        <p class="card-text__title">Order Summary</p>
-        <p class="card-text__msg">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-      </div>
-      <div role="contentinfo" class="plan-description">
-        <div class="plan-description__container">
-          <img src="./assets/images/icon-music.svg" alt="ícono de musica" />
-          <div class="plan-option">
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
-          </div>
+      <header role="banner">
+        <img src="../assets/images/illustration-hero.svg" alt="hero image" />
+      </header>
+      <main role="main">
+        <div class="card-text">
+          <p class="card-text__title">Order Summary</p>
+          <p class="card-text__msg">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
         </div>
-        <div class="plan-change"><a href="">Change</a></div>
-      </div>
+        <div class="plan-description">
+          <div class="plan-description__container">
+            <img src="./assets/images/icon-music.svg" alt="ícono de musica" />
+            <div class="plan-option">
+              <p>Annual Plan</p>
+              <p>$59.99/year</p>
+            </div>
+          </div>
+          <div class="plan-change"><a href="">Change</a></div>
+        </div>
+      </main>
       <div role="button" class="card-buttons">
         <button id="btn-proceed">Proceed to Payment</button>
         <a href="">Cancel Order</a>

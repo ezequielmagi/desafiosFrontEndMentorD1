@@ -25,6 +25,13 @@ body {
   background-size: 100%;
 }
 
+main {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card-container {
   background-color: #fafafa;
   border-radius: 20px;
@@ -65,10 +72,10 @@ body {
 
 .plan-description {
   align-items: center;
-  background-color: var(--Very-pale-blue);
+  background-color: hsl(225, 100%, 94%, 50%);
   border-radius: 15px;
   display: flex;
-  height: 10%;
+  height: 30%;
   justify-content: space-evenly;
   margin: 0 auto;
   width: 75vw;

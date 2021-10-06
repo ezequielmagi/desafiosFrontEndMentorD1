@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   grid-column: 2;
-  height: 65%;
+  height: 75%;
   justify-content: space-between;
   margin: auto;
   width: 80%;
@@ -51,13 +51,20 @@ body {
   border-top-right-radius: 20px;
 }
 
+main {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card-text {
   margin: 0 10%;
   text-align: center;
 }
 
 .card-text__title {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 900;
   margin-bottom: 15px;
 }
@@ -65,7 +72,7 @@ body {
 .card-text__msg {
   color: var(--Desaturated-blue);
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
@@ -74,7 +81,7 @@ body {
   background-color: hsl(225, 100%, 94%, 50%);
   border-radius: 15px;
   display: flex;
-  height: 15%;
+  height: 30%;
   justify-content: space-evenly;
   margin: 0 auto;
   width: 80%;
